@@ -9,14 +9,14 @@ Seeded with a handful of complex, ambiguous, polysemic, or hard-to-define concep
 
 <img src="src/assets/img/screenshots/metaphor.png" alt="metaphor page">
 
-If a statement is chosen enough times (in a single session) it will be included in the "Hall of Fame" where it may be seen and upvoted by other users.
+If a statement is chosen enough times (in a single session) it will be included in the "Anthology," a sort of hall of fame, where it may be seen and upvoted by other users.
 
-(insert screenshot of hall of fame)
+<img src="src/assets/img/screenshots/anthology.png" alt="metaphor page">
 
+A user can also click on the arrow next to a statement to see the journey a user took through their session, revealing something of the logic that morphed the statements toward the concepts they arrived at.
 
+<img src="src/assets/img/screenshots/tree.png" alt="tree page">
 
-## Screenshots
-<img src="Content/img/screenshots/landing.png" alt="landing">
 
 ## Specifications
 
@@ -38,13 +38,9 @@ If a statement is chosen enough times (in a single session) it will be included 
 * User will be able to choose between the two metaphors presented as to which one is preferable to the user
   * Selection clicked
   * The two current strings, as well as the one selected stored to database in session generated from page load
-* Once a threshold has been reached for a metaphor being selected repeatedly, the string will be stored to a "hall of fame" and replaced with a new metaphor based on a new concept
+* Once a threshold has been reached for a metaphor being selected repeatedly, the string will be stored to an "anthology" and replaced with a new metaphor based on a new concept
   * Metaphor has been selected as the preferred choice X times
-  * Stored to hall of fame "table" to be displayed on separate view
-
-| Behavior | Input | Output |
-| - | - | - |
-| blah | blah | blah |
+  * Stored to anthology "table" to be displayed on separate view
 
 ## Set up / Installation
 
